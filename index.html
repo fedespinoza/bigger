@@ -15,14 +15,19 @@
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="logo">
-
-        <nav>
-            <a href="#tour">Tour</a>
-            <a href="#galeria">Galeria</a>
-            <a href="#contacto">Contacto</a>
-            <a href="iniciar-sesion.html" class="login"><i class="fas fa-sign-in-alt"></i></a>
-            <a href="registrarse.html" class="login"><i class="fas fa-user-plus"></i></a>
+        <img src="./img/logo.png" alt="logo">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><i class="fas fa-bars"></i></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="login.html" class="menu-responsive">Iniciar Sesion</a></li>
+                <li><a href="sign-up.html" class="menu-responsive">Registrarse</a></li>
+                <li><a href="login.html" class="menu-desktop"><i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="sign-up.html" class="menu-desktop"><i class="fas fa-user-plus"></i></a></li>
+            </ul>      
         </nav>
     </header>
 

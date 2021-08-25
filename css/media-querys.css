@@ -30,9 +30,53 @@
 
 
  @media (max-width: 768px) {
-    header img{
-        width: 70px;
+
+    /**************** ***************/
+            /* HEADER & NAV*/
+    /**************** ***************/
+    header label{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-left: 50%;
     }
+
+    .menu{
+        position: absolute;
+        background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCI+CjxmaWx0ZXIgaWQ9Im4iPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iLjciIG51bU9jdGF2ZXM9IjEwIiBzdGl0Y2hUaWxlcz0ic3RpdGNoIj48L2ZlVHVyYnVsZW5jZT4KPC9maWx0ZXI+CjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWx0ZXI9InVybCgjbikiIG9wYWNpdHk9IjAuNCI+PC9yZWN0Pgo8L3N2Zz4=");
+        width: 100%;
+        height: auto;
+        margin-left: 200%;
+        transition: all 0.5s;
+        top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu li .menu-responsive{
+        display: block;
+    }
+    
+    .menu li .menu-desktop{
+        display: none;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+
+    /**************** ***************/
+                 /*VIDEO*/
+    /**************** ***************/
 
     .video{
         height: 70vh;
@@ -45,6 +89,10 @@
     .video-div-bottom{
         display: none;
     }
+
+    /**************** ***************/
+               /*NOTICIAS*/
+    /**************** ***************/
 
     .cards-noticias{
         flex-direction: column;
@@ -59,6 +107,10 @@
         height: 300px;
         object-fit: cover;
     }
+
+    /**************** ***************/
+                 /*TOUR*/
+    /**************** ***************/
 
     .tour .tour-container{
         display: flex;
@@ -98,6 +150,10 @@
         padding: 20px 0;
     }
 
+    /**************** ***************/
+           /*GALERIA DE IMAGENES*/
+    /**************** ***************/
+
     .primera-seccion-imagenes,
     .segunda-seccion-imagenes,
     .tercera-seccion-imagenes{ 
@@ -113,24 +169,26 @@
         padding: 5px 0px;
     }
 
+    /**************** ***************/
+              /*PRE FOOTER*/
+    /**************** ***************/
+
     .contenido-pre-footer h2{
         font-size: 1.4rem;
         padding: 0 10px;
-        color: #ffffff;
-        overflow: hidden;
     }
+
+    /**************** ***************/
+                /*FOOTER*/
+    /**************** ***************/
 
     footer .redes-sociales i{
         padding: 15px 10px;
-        color: #fff;
         font-size: 1rem;
-        transition: all 0.5s ease;
     }
     
     footer p{
-        text-align: center;
         padding: 0px 15px 15px 15px;
-        color: #fff;
         font-size: 0.7rem;
     }
  }
