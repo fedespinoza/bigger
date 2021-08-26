@@ -106,12 +106,32 @@
 
     .cards-noticias .cuadro-noticias{
         margin-bottom: 60px;
+        text-align: center;
     }
 
     .cards-noticias .cuadro-noticias img{
         width: 300px;
         height: 300px;
         object-fit: cover;
+    }
+
+    .cards-noticias .cuadro-noticias button{
+        background-color: #fd4800;
+        border: none;
+        padding: 10px 15px;
+        margin: 10px 0;
+        color: #fd4800;
+        border-radius: 5px;
+    }
+    
+    .cards-noticias .cuadro-noticias a{
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .cards-noticias .cuadro-noticias a:hover{
+        color: #000;
+        font-weight: 500;
     }
 
     /**************** ***************/

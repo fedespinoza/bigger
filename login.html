@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión | Bigger</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&&family=Tourney&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-querys.css">
+        <title>Bigger</title>
+    </head>
 <body>
-    
+    <header class="header-login">
+        <a href="index.html"><img src="./img/logo.png" alt="logo"></a>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><i class="fas fa-bars"></i></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html" class="menu-responsive">Iniciar Sesion</a></li>
+                <li><a href="sign-up.html" class="menu-responsive">Registrarse</a></li>
+                <li><a href="login.html" class="menu-desktop"><i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="sign-up.html" class="menu-desktop"><i class="fas fa-user-plus"></i></a></li>
+            </ul>      
+        </nav>
+    </header>
+
+    <main class="main-login">
+        <section class="login">
+            <h1>Bigger Log In</h1>
+            <input type="email" placeholder="EMAIL">
+            <input type="password" placeholder="PASSWORD" class="input-password">
+            <div class="check-pass">
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="checkbox">
+                    <label for="checkbox">Mantenerme logueado</label>
+                </div>
+                <div class="password">
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+            </div>
+            <button class="btn-login"><a href="#">Iniciar Sesión</a></button>
+        </section>
+
+        <section class="member">
+            <h2>Convertirte en miembro</h2>
+            <h4>Crea tu cuenta totalmente gratis para ser un Bigger</h4>
+
+            <button class="btn-registrarse"><a href="sign-up.html">Registrarse</a></button>
+        </section>
+    </main>
+
+
+    <footer class="footer-login">
+        <div class="redes-sociales">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-spotify"></i></a>
+            <a href="#"><i class="fab fa-apple"></i></a>
+        </div>
+        <p> &copy; 2021 Warner Music AR Limited. Políticas de Privacidad | Términos de uso | Políticas de cookies | Configuración de cookies </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/d00f77a71f.js" crossorigin="anonymous"></script>
 </body>
 </html>

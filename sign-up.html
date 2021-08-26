@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse | Bigger</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&&family=Tourney&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-querys.css">
+        <title>Bigger</title>
+    </head>
 <body>
-    
+    <header class="header-login">
+        <a href="index.html"><img src="./img/logo.png" alt="logo"></a>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><i class="fas fa-bars"></i></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html" class="menu-responsive">Iniciar Sesion</a></li>
+                <li><a href="sign-up.html" class="menu-responsive">Registrarse</a></li>
+                <li><a href="login.html" class="menu-desktop"><i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="sign-up.html" class="menu-desktop"><i class="fas fa-user-plus"></i></a></li>
+            </ul>      
+        </nav>
+    </header>
+
+    <main class="main-sign-up">
+        <div class="informacion-sign-up">
+            <h1>Información de registro</h1>
+            <p>Por favor ingrese una dirección de correo electrónico válida. Todos los correos electrónicos del sistema se enviarán a esta dirección. La dirección de correo electrónico no se hace pública, pero será nuestro medio principal de comunicarnos con usted para todos los asuntos relacionados con su cuenta (incluidas las oportunidades de venta de entradas).</p>
+            <p>Por su seguridad, su contraseña debe tener 6 caracteres o más; contener números; y una combinación de letras mayúsculas y minúsculas. Recuerde su contraseña y nunca la comparta con nadie. Bigger nunca le pedirá su contraseña.</p>
+        </div>
+
+        <form action="">
+            <div class="nombres">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+            </div>
+            <div class="username-sign-up">
+                <input type="text" placeholder="Username" class="username">
+            </div>
+            <div class="emails-sign-up">
+                <input type="email" name="" id="" placeholder="Email">
+                <input type="email" name="" id="" placeholder="Repetir Email">
+            </div>
+            <div class="password-sign-up">
+                <input type="password" name="" id="" placeholder="Contraseña">
+                <input type="password" name="" id="" placeholder="Repetir Contraseña">
+            </div>
+            <div class="direccion-sign-up">
+                <input type="text" placeholder="Dirección">
+                <input type="text" placeholder="Dirección 2">
+            </div>
+            <div class="lugar-sign-up">
+                <select name="" id="">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Mexico">Mexico</option>
+                </select>
+            </div>
+            <div class="region-sign-up">
+                <input type="text" placeholder="Provincia">
+                <input type="text" placeholder="Código Postal">
+            </div>
+
+            <p>Al hacer clic en el botón Crear cuenta a continuación, confirma que es mayor de 13 años y acepta los Términos de uso. </p>
+
+            <div class="btn-crear-cuenta">
+                <button class="btn-registrarse"><a href="sign-up.html">Crear mi cuenta Bigger</a></button>
+            </div>
+        </form>
+
+    </main>
+
+
+    <footer class="footer-login">
+        <div class="redes-sociales">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-spotify"></i></a>
+            <a href="#"><i class="fab fa-apple"></i></a>
+        </div>
+        <p> &copy; 2021 Warner Music AR Limited. Políticas de Privacidad | Términos de uso | Políticas de cookies | Configuración de cookies </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/d00f77a71f.js" crossorigin="anonymous"></script>
 </body>
 </html>
