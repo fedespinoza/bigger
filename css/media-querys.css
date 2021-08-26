@@ -34,6 +34,11 @@
     /**************** ***************/
             /* HEADER & NAV*/
     /**************** ***************/
+
+    header{
+        overflow-y: hidden;
+    } 
+    
     header label{
         display: flex;
         justify-content: flex-end;
