@@ -217,4 +217,97 @@
         padding: 0px 15px 15px 15px;
         font-size: 0.7rem;
     }
+
+    /**************** ***************/
+             /* PAGINA LOGIN*/
+    /**************** ***************/
+
+    .header-login{
+        height: auto;
+    }
+    
+    .footer-login{
+        height: auto;
+        padding: 10px;
+    }
+
+    .main-login{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-login h1{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .main-login input{
+        margin-left: 0;
+    }
+
+    .main-login button{
+        margin-left: 0;
+    }
+
+    .member{
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .member h4{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 55px;
+        width: 80%;
+    }
+
+    button.btn-registrarse{
+        margin-left: 0;
+        margin-bottom: 45px;
+    }
+
+    /**************** ***************/
+            /* PAGINA SIGN UP*/
+    /**************** ***************/
+
+    form{
+        margin: 20px auto;
+    }
+
+    .nombres,
+    .username-sign-up,
+    .emails-sign-up,
+    .password-sign-up,
+    .direccion-sign-up,
+    .lugar-sign-up,
+    .region-sign-up{
+        flex-direction: column;
+    }
+
+    .main-sign-up input{
+        padding: 10px 30px;
+        width: 80%;
+    }
+
+    .lugar-sign-up select{
+        text-align: left;
+        padding: 10px 30px;
+    }
+
+    .btn-crear-cuenta{
+        width: 80%;
+    }
+    
+    .main-sign-up button{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    
+    .main-sign-up button a{
+        letter-spacing: 1px;
+        padding: 0px 0px;
+        font-size: 1rem;
+        text-align: center;
+    }
  }
