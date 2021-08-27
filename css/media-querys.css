@@ -4,6 +4,9 @@
 
 
 @media (min-width: 1400px) {
+    video{
+        width: 100%;
+    }
     header img{
         width: 70px;
     }
@@ -13,13 +16,19 @@
     }
 
     .video-div-top{
-        height: 100px;
-        top: 105px;
+        height: 120px;
+        top: 70px;
     }
     
     .video-div-bottom{
-        height: 72px;
-        top: 625px;
+        height: 120px;
+        top: 655px;
+    }
+
+    .cards-noticias{
+        display: flex;
+        justify-content: flex-end;
+        width: var(--max-width);
     }
  }
 
