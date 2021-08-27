@@ -240,6 +240,12 @@
         padding: 10px;
     }
 
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .main-login{
         flex-direction: column;
         height: auto;
@@ -256,6 +262,17 @@
 
     .main-login button{
         margin-left: 0;
+    }
+
+    .check-pass{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .password{
+        margin-bottom: 2px;
     }
 
     .member{
