@@ -483,6 +483,16 @@ footer p{
     font-size: 0.7rem;
 }
 
+footer p a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+footer p a:hover{
+    color: var(--text-color-orange);
+}
+
 /**************** ***************/
        /* PAGINA LOGIN*/
 /**************** ***************/
@@ -731,5 +741,44 @@ form{
     letter-spacing: 1.2px;
     padding: 20px 50px;
     transition: all 0.5s ease;
+}
+
+
+/**************** ***************/
+ /* PAGINA POLITICAS PRIVACIDAD*/
+/**************** ***************/
+
+.main-politicas{
+    display: flex;
+    flex-direction: column;
+    background: var(--background-secondary);
+}
+
+.politicas,
+.terminos,
+.cookies,
+.configuracion-cookies{
+    max-width: var(--max-width);
+}
+
+.politicas h1,
+.terminos h2,
+.cookies h2,
+.configuracion-cookies h2{
+    margin: 0 100px;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.politicas p,
+.terminos p,
+.cookies p,
+.configuracion-cookies p{
+    margin: 20px 100px;
+}
+
+.configuracion-cookies{
+    margin-bottom: 150px;
 }
 
